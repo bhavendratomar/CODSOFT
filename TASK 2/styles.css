@@ -1,0 +1,311 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BASE */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* NAVIGATION */
+header {
+  background-color: #1e1e1e;
+  padding: 20px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.navbar {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar h1 {
+  font-size: 26px;
+  color: #fff;
+}
+
+.navbar nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar nav ul li a {
+  color: #fff;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.navbar nav ul li a:hover {
+  color: #007BFF;
+}
+
+/* HERO */
+.hero {
+  background: linear-gradient(to right, #111, #444);
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 10%;
+}
+
+.hero-text {
+  flex: 1 1 50%;
+  padding-right: 30px;
+}
+
+.hero-text h2 {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.hero .btn {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 12px 25px;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+}
+
+.hero .btn:hover {
+  background-color: #0056b3;
+}
+
+.hero-image {
+  flex: 1 1 40%;
+  text-align: center;
+}
+
+.hero-image img {
+  max-width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+/* ABOUT */
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 80px 10%;
+  align-items: center;
+  background-color: #fff;
+}
+
+.about-text {
+  flex: 1 1 50%;
+  padding-right: 30px;
+}
+
+.about-text h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.about-text p {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #555;
+}
+
+.about-img {
+  flex: 1 1 40%;
+  text-align: center;
+}
+
+.about-img img {
+  max-width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* RESUME */
+.resume {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 80px 10%;
+}
+
+.resume h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.resume p {
+  font-size: 16px;
+  margin-bottom: 30px;
+  color: #444;
+}
+
+.resume .btn {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 12px 25px;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.resume .btn:hover {
+  background-color: #0056b3;
+}
+
+/* SKILLS */
+.skills {
+  background-color: #f9f9f9;
+  padding: 80px 10%;
+  text-align: center;
+}
+
+.skills h2 {
+  font-size: 30px;
+  margin-bottom: 25px;
+  color: #222;
+}
+
+.skills ul {
+  list-style: none;
+  padding: 0;
+  max-width: 500px;
+  margin: auto;
+  text-align: left;
+}
+
+.skills ul li {
+  font-size: 16px;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+  color: #444;
+}
+
+/* PROJECTS */
+.projects {
+  background-color: #fff;
+  padding: 80px 10%;
+  text-align: center;
+}
+
+.projects h2 {
+  font-size: 30px;
+  margin-bottom: 25px;
+  color: #222;
+}
+
+.project-box {
+  background-color: #f1f1f1;
+  padding: 30px;
+  max-width: 600px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.05);
+}
+
+.project-box h3 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: #007BFF;
+}
+
+.project-box p {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+/* CONTACT */
+.contact {
+  background-color: #fff;
+  text-align: center;
+  padding: 80px 10%;
+}
+
+.contact h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.contact p {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 15px;
+}
+
+.email-link {
+  display: inline-block;
+  font-size: 16px;
+  color: #007BFF;
+  font-weight: 600;
+  text-decoration: none;
+  word-break: break-all;
+  transition: color 0.3s ease;
+}
+
+.email-link:hover {
+  color: #0056b3;
+}
+
+/* FOOTER */
+footer {
+  background-color: #1e1e1e;
+  color: #ccc;
+  text-align: center;
+  padding: 20px 10%;
+  font-size: 14px;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 768px) {
+  .hero,
+  .about {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-text,
+  .about-text {
+    padding-right: 0;
+  }
+
+  .hero-text h2 {
+    font-size: 30px;
+  }
+
+  .about-text h2 {
+    font-size: 26px;
+  }
+
+  .hero-image img,
+  .about-img img {
+    margin: 20px auto;
+  }
+}
